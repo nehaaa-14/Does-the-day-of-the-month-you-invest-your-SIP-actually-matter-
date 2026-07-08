@@ -36,6 +36,21 @@ Instead of guessing, I decided to test it with real historical data — simulati
 ```bash
 pip install requests matplotlib
 ```
+## How to Run
+This repo includes two scripts:
+
+- **`sip_simulator.py`** — analyzes the two specific funds used in this project (Parag Parikh Flexi Cap & Nippon India Small Cap) with fixed parameters
+- **`general_sip_simulator.py`** — a general-purpose version that lets you input any mutual fund name, date range, and investment amount
+
+**Requirements:**
+​```bash
+pip install requests matplotlib
+​```
+
+**Steps:**
+1. Clone this repo
+2. Run either script in Google Colab or a local Python environment
+3. Follow the prompts (for the general version) or edit the fixed parameters at the top (for the fixed version)
 
 **Steps:**
 1. Clone this repo
