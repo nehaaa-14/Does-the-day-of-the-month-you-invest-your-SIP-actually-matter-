@@ -69,3 +69,17 @@ While the data does show some difference between "best" and "worst" days, **this
 **The real, well-supported takeaway for SIP investors**: consistency and staying invested matter far more than which specific day you choose. Time in the market beats timing the market.
 
 ## Repo Structure
+├── README.md
+├── sip_simulator.py
+├── requirements.txt
+├── sample_output/
+│   ├── parag_parikh_sample.csv
+│   └── nippon_india_sample.csv
+└── charts/
+    └── day_of_month_comparison.png
+## Disclaimer
+This is a personal data exploration project, **not financial advice**. Past NAV patterns do not predict future fund performance. Please verify any data independently and consult a qualified financial advisor before making investment decisions.
+
+---
+
+*Data source: [mfapi.in](https://www.mfapi.in) (AMFI data)*
