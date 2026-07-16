@@ -11,6 +11,7 @@ A data analysis project exploring whether the day of the month you invest your S
 - [Key Takeaway](#key-takeaway)
 - [Repo Structure](#repo-structure)
 - [Disclaimer](#disclaimer)
+- Limitations(#Limitations)
 
 ## Overview
 Like many SIP investors, I wondered: does it matter *which* day of the month you invest? Since NAV fluctuates daily, could consistently investing on a specific day (say, the 8th vs the 25th) lead to buying more units on average over time?
@@ -94,6 +95,16 @@ While the data does show some difference between "best" and "worst" days, **this
     └── day_of_month_comparison.png
 ## Disclaimer
 This is a personal data exploration project, **not financial advice**. Past NAV patterns do not predict future fund performance. Please verify any data independently and consult a qualified financial advisor before making investment decisions.
+
+## Limitations
+
+This analysis is intended to evaluate historical SIP investment patterns and should be interpreted with the following limitations in mind:
+
+- The analysis is based solely on historical NAV data and does not predict future mutual fund performance.
+- Only two equity mutual funds were included in this study; results may differ for other funds or asset classes.
+- Taxes, exit loads, expense ratios, and transaction costs were not considered.
+- The study assumes consistent monthly SIP investments without missed or additional contributions.
+- Market conditions and investment outcomes can vary across different time periods.
 
 ---
 
