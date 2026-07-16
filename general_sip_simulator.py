@@ -1,4 +1,4 @@
-
+def main():
 
 import requests
 import csv
@@ -105,4 +105,6 @@ from google.colab import files
 files.download(combined_filename)
 
 print("\nDone! One combined CSV file (side-by-side tables) has been downloaded.")
+if __name__ == "__main__":
+    main()
 
