@@ -1,7 +1,7 @@
 def main():
 
 import requests
-import csv
+import pandas as pd
 from datetime import datetime, timedelta
 
 # ---- Step 1: Take user input ----
